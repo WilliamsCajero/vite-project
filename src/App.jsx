@@ -22,6 +22,14 @@ function App() {
         </button>
 
         <Boton texto={'Compras'}></Boton>
+
+        <button
+        onClick={() => {
+          alert("Hola");
+        }}
+        >
+          Alerta
+        </button>
       </div>
     </>
   );
